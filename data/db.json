@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "desc": "Lorem, ipsum",
+      "price": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolorem enim blanditiis odit harum, possimus aliquam aspernatur. Ea magnam doloremque maxime, dolorum totam accusamus quas facilis maiores? Dolor, provident? Facilis iure, repellendus earum cumque quidem repudiandae perspiciatis animi, esse totam ratione deserunt placeat sit ex, vitae itaque nisi. Nam, possimus?",
+      "rating": "jane doe",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 2,
+      "desc": "Lorem, ipsum",
+      "price": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolorem enim blanditiis odit harum, possimus aliquam aspernatur. Ea magnam doloremque maxime, dolorum totam accusamus quas facilis maiores? Dolor, provident? Facilis iure, repellendus earum cumque quidem repudiandae perspiciatis animi, esse totam ratione deserunt placeat sit ex, vitae itaque nisi. Nam, possimus?",
+      "rating": "jane doe",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
+    },
+    {
+      "id": 3,
+      "desc": "Lorem, ipsum",
+      "price": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolorem enim blanditiis odit harum, possimus aliquam aspernatur. Ea magnam doloremque maxime, dolorum totam accusamus quas facilis maiores? Dolor, provident? Facilis iure, repellendus earum cumque quidem repudiandae perspiciatis animi, esse totam ratione deserunt placeat sit ex, vitae itaque nisi. Nam, possimus?",
+      "rating": "jane doe",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
+    },
+    {
+      "id": 4,
+      "desc": "Lorem, ipsum",
+      "price": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolorem enim blanditiis odit harum, possimus aliquam aspernatur. Ea magnam doloremque maxime, dolorum totam accusamus quas facilis maiores? Dolor, provident? Facilis iure, repellendus earum cumque quidem repudiandae perspiciatis animi, esse totam ratione deserunt placeat sit ex, vitae itaque nisi. Nam, possimus?",
+      "rating": "jane doe",
+      "imageUrl": "https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
+    },
+    {
+      "id": 5,
+      "desc": "Lorem, ipsum",
+      "price": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolorem enim blanditiis odit harum, possimus aliquam aspernatur. Ea magnam doloremque maxime, dolorum totam accusamus quas facilis maiores? Dolor, provident? Facilis iure, repellendus earum cumque quidem repudiandae perspiciatis animi, esse totam ratione deserunt placeat sit ex, vitae itaque nisi. Nam, possimus?",
+      "rating": "jane doe",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
+    },
+    {
+      "id": 6,
+      "desc": "Lorem, ipsum",
+      "price": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolorem enim blanditiis odit harum, possimus aliquam aspernatur. Ea magnam doloremque maxime, dolorum totam accusamus quas facilis maiores? Dolor, provident? Facilis iure, repellendus earum cumque quidem repudiandae perspiciatis animi, esse totam ratione deserunt placeat sit ex, vitae itaque nisi. Nam, possimus?",
+      "rating": "jane doe",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
+    }
+  ]
+}
