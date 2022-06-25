@@ -13,7 +13,7 @@ import { db } from '../firebase';
 
 function Payment() {
     const[{basket, user}, dispatch] = useStateValue();
-    const history = useHistory();  
+    const history = useHistory();
     const stripe = useStripe();
     const elements = useElements();
 
@@ -101,7 +101,7 @@ function Payment() {
                     </div>
                     <div className="Payment__item">
                         {basket.map(item => (
-                                <CheckoutProduct 
+                                <CheckoutProduct
                                 id={item.id}
                                 title={item.title}
                                 image={item.image}

@@ -7,6 +7,16 @@
   top: 0;
   z-index: 100;
 }
+
+.Header__image  h1 {
+  color: #efefef;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.Header__image  h1  span{
+  color: #cd9042;
+}
 .Header__logo {
   width: 100px;
   object-fit: contain;

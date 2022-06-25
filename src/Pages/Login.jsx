@@ -15,8 +15,8 @@ function LoginPage() {
         //firebase Login funtionality goes in here
         try {
             const userLogin = signInWithEmailAndPassword(
-                auth, 
-                email, 
+                auth,
+                email,
                 password
                 );
                 if (userLogin) {
@@ -32,8 +32,8 @@ function LoginPage() {
         // firebase register funtionality goes in here
         try {
             const user = await createUserWithEmailAndPassword(
-                auth, 
-                email, 
+                auth,
+                email,
                 password
             );
             console.log(user)
@@ -56,15 +56,15 @@ function LoginPage() {
                 <h1>Sign-in</h1>
                 <form>
                     <h5>E-mail</h5>
-                    <input 
-                    type="text"  
+                    <input
+                    type="text"
                     value={email}
                     onChange={e => setEmail(e.target.value)}
                     />
 
                     <h5>Password</h5>
-                    <input 
-                    type="password" 
+                    <input
+                    type="password"
                     value={password}
                     onChange={e => setPassword(e.target.value)}
                     />
@@ -73,10 +73,10 @@ function LoginPage() {
                 </form>
 
                 <p>
-                By signing-in you agree to the 
-                AMAZON FAKE CLONE Conditions of Use & Sale. 
-                Please see our Privacy Notice, our Cookies Notice 
-                and our Interest-Based Ads Notice. 
+                By signing-in you agree to the
+                AMAZON FAKE CLONE Conditions of Use & Sale.
+                Please see our Privacy Notice, our Cookies Notice
+                and our Interest-Based Ads Notice.
                 </p>
 
                 <button className='Login__registerBtn' onClick={handleRegister}>Create your Amazon account</button>

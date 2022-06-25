@@ -18,7 +18,7 @@ function App() {
   const [{basket}, dispatch] = useStateValue();
   useEffect(() => {
     auth.onAuthStateChanged(authUser => {
-      console.log('THE USER IS CALLED >>>>>', authUser);
+      // console.log('THE USER IS CALLED >>>>>', authUser);
       if (authUser) {
         //shows user is or was logged in
         dispatch({
@@ -33,7 +33,7 @@ function App() {
         })
       }
     });
-  }, [])
+  }, [dispatch])
   return (
     <Router>
       <div className="App">

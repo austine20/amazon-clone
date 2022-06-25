@@ -9,10 +9,10 @@ function Checkout() {
     return (
         <div className='checkout'>
             <div className="Checkout__left">
-                <img 
-                className='Checkout__ad' 
+                <img
+                className='Checkout__ad'
                 src="https://images-eu.ssl-images-amazon.com/images/G/02/UK_CCMP/TM/OCC_Amazon1._CB423492668_.jpg"
-                alt="" 
+                alt=""
                 />
 
                 <div>
@@ -20,8 +20,9 @@ function Checkout() {
                     <h2 className="Checkout__title">
                         Your Shopping Basket
                     </h2>
-                    {basket.map(item => (
-                        <CheckoutProduct 
+                    {basket.map((item, index)=> (
+                        <CheckoutProduct
+                            key={index}
                             id={item.id}
                             title={item.title}
                             image={item.image}
